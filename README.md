@@ -108,3 +108,9 @@ python rl-agent.py --dataset bdd100k --class-name 'crossright'
 ```
 
 The results log will be generated in the `data/results` folder.
+
+## Demo
+
+Here is a short video demo of `Zeus` in action.
+
+https://user-images.githubusercontent.com/43007047/135919993-625f4962-4270-4dba-adfc-988708e588cb.mp4
