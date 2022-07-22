@@ -113,7 +113,7 @@ class CustomFeatExtractor():
                 image_path = os.path.join(folder, (str(i).zfill(10)+'.png'))
             else:
                 image_path = os.path.join(
-                    folder, 'frame{:06d}.jpg'.format(i))
+                    folder, 'frame{:06d}.jpg'.format(i+1))
 
             image = Image.open(image_path).convert('RGB')
 
